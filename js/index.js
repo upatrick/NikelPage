@@ -5,7 +5,7 @@ const session = localStorage.getItem("session");
 checkLogged();
 
 //LOGAR NO SISTEMA
-document.getElementById("login-form");addEventListener("submit", function (e) {
+document.getElementById("login-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
     const email = document.getElementById("email-input").value;
